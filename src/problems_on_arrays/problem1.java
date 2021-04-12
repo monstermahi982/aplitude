@@ -1,4 +1,4 @@
-//        Check if a key is present in every segment of size k in an array
+package problems_on_arrays;//        Check if a key is present in every segment of size k in an array
 
 //        Given an array arr[] and size of array is n and one another key x, and give you a segment size k.
 //        The task is to find that the key x present in every segment of size k in arr[].

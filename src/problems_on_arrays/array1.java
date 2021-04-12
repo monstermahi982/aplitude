@@ -1,3 +1,5 @@
+package problems_on_arrays;
+
 public class array1 {
     public static void main(String[] args) {
 //        simple array problem

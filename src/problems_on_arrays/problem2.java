@@ -1,3 +1,5 @@
+package problems_on_arrays;
+
 public class problem2 {
      static int smaallfun(int n , int [] array){
         int a = array[0];
