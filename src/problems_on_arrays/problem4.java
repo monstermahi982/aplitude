@@ -1,4 +1,4 @@
-//Union and Intersection of two sorted arrays
+package problems_on_arrays;//Union and Intersection of two sorted arrays
 
 //        Input : arr1[] = {1, 3, 4, 5, 7}
 //          arr2[] = {2, 3, 5, 6}

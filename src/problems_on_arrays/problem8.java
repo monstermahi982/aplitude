@@ -1,4 +1,4 @@
-//just for fun
+package problems_on_arrays;//just for fun
 
 public class problem8 {
     public static void main(String[] args) {
