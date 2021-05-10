@@ -1,5 +1,7 @@
 package array_450;
 
+//need chnages
+//second approach is to sort the array first and then find the kth position
 public class kth_max_min_3 {
     public static void main(String[] args) {
         int array [] = {1,4,2,3,6,9};
