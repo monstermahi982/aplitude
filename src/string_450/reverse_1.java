@@ -2,7 +2,7 @@ package string_450;
 
 //reverse a given string
 
-public class reverse {
+public class reverse_1 {
     public static void main(String[] args) {
         String a = "mahesh";
         reverse1(a,a.length());

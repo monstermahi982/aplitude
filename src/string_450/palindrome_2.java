@@ -1,6 +1,6 @@
 package string_450;
 
-public class palindrome {
+public class palindrome_2 {
     public static void main(String[] args) {
         String a = "maham";
         if(isPalindrome(a)){

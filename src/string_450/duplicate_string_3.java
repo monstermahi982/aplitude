@@ -1,7 +1,7 @@
 package string_450;
 //Print all the duplicates in the input string
 
-public class duplicate_string {
+public class duplicate_string_3 {
     static final int NO_OF_CHARS = 256;
     public static void main(String[] args) {
         String a = "mahesh";
