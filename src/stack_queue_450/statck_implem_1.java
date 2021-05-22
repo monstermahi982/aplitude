@@ -1,4 +1,6 @@
-public class statck_queue_450 {
+package stack_queue_450;
+
+public class statck_implem_1 {
     static class MyStack{
         int maxSize;
         long [] stackArray;
@@ -27,6 +29,7 @@ public class statck_queue_450 {
         }
 
     }
+
     public static void main(String[] args) {
         MyStack st = new MyStack(10);
         st.push(2);
@@ -35,7 +38,5 @@ public class statck_queue_450 {
         st.push(5);
         st.pop();
         System.out.println(st.peef());
-
-
     }
 }
