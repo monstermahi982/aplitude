@@ -3,7 +3,7 @@ package LinkList_450;
 import java.util.LinkedList;
 
 class Linklist{
-    static  Node head;
+    static Link_List.Node head;
 
     static class Node {
         int data;
