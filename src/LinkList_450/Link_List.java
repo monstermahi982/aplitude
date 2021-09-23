@@ -1,7 +1,7 @@
 package LinkList_450;
 
 public class Link_List {
-    Node head;
+    static Node head;
 
     static class Node{
         int data;
@@ -52,21 +52,23 @@ public class Link_List {
 //        list.insetPos(list, 8 , 4);
 //        list.display(list);
 //        list.removeDuplicate(list);
-        list.reverse(list);
+        head = list.reverse(head);
         list.display(list);
 
     }
 
-    private Link_List reverse(Link_List list) {
-        Node prev = list.head;
-        Node curr = list.head.next;
-        list.head.next = null;
-        while (prev != null && curr.next != null){
-            Node temp = curr.next;
-            curr = prev;
-            prev = temp;
+    private Node reverse(Node node) {
+        Node prev = null;
+        Node curr = node;
+        Node next = null;
+        while (curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
-        return list;
+        node = prev;
+        return node;
     }
 
     private Link_List removeDuplicate(Link_List list) {
